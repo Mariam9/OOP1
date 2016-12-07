@@ -25,7 +25,7 @@ namespace test4
                 {
                     if (arr[i] >= a)
                     {
-                        a = arr[i]; свввв
+                        a = arr[i]; 
                     }
                 }
 
