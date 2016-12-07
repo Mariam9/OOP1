@@ -15,7 +15,7 @@ namespace test4
 
         interface IWow
         {
-            int[] GetTreatedArray(int[] arr);
+            int[] GetTreatedArray(int[] arr, int a);
         }
 
         public class FirstArray : IWow
@@ -24,12 +24,20 @@ namespace test4
             {
                 
                     if ( a == 1 ) 
+                 {
+                    for (int i = 0; i < arr.Length; i++)
                     {
-                        for (int i = 0; i < arr.Length; i++)
-                            {
                                 
-                            } 
+                    } 
+                 }
+
+                    if(a == 2)
+                {
+                    for(int i = 0; i<arr.Length; i++)
+                    {
+
                     }
+                }
                     
                     
 
