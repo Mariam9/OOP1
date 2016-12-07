@@ -10,7 +10,9 @@ namespace test4
     {
         static void Main(string[] args)
         {
+
         }
+
         interface IWow
         {
             int[] GetTreatedArray(int[] arr);
@@ -18,20 +20,18 @@ namespace test4
 
         public class FirstArray : IWow
         {
-            int[] GetTreatedArray(int[] arr)
+            int[] GetTreatedArray(int[] arr, int a)
             {
-                int a = 10;
-                for (int i = 0; i < arr.Length; i++)
-                {
-                    if (arr[i] >= a)
+                
+                    if ( a == 1 ) 
                     {
-                        a = arr[i]; 
+                        for (int i = 0; i < arr.Length; i++)
+                            {
+                                
+                            } 
                     }
-                }
-
-                return a;
-
-
+                    
+                    
 
             }
         }
