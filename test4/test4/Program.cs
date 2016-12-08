@@ -10,7 +10,8 @@ namespace test4
     {
         static void Main(string[] args)
         {
-
+            FirstArray newarr = new FirstArray();
+            newarr.GetTreatedArray();
         }
 
         interface IWow
@@ -20,20 +21,25 @@ namespace test4
 
         public class FirstArray : IWow
         {
-            int[] GetTreatedArray(int[] arr, int a)
+           public int[] GetTreatedArray(int[] arr, int a)
             {
                 
-                    if ( a == 1 ) 
+                    if (a == 1) 
                  {
                     for (int i = 0; i < arr.Length; i++)
                     {
-                                
+                        int b = 10;
+                        if (arr[i] >= b)
+                        {
+                           Console.Write("{0} ", arr[i]);
+                        }
+                        
                     } 
                  }
 
                     if(a == 2)
                 {
-                    for(int i = 0; i<arr.Length; i++)
+                    for(int i = 0; i < arr.Length; i++)
                     {
 
                     }
