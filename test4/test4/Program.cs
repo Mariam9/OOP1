@@ -11,7 +11,7 @@ namespace test4
         static void Main(string[] args)
         {
             FirstArray newarr = new FirstArray();
-            newarr.GetTreatedArray();
+            newarr.GetTreatedArray(new int[] { 3, 56, 2, 10, 55, 6 }, 1);
         }
 
         interface IWow
@@ -23,31 +23,21 @@ namespace test4
         {
            public int[] GetTreatedArray(int[] arr, int a)
             {
-                
-                    if (a == 1) 
-                 {
-                    for (int i = 0; i < arr.Length; i++)
-                    {
-                        int b = 10;
-                        if (arr[i] >= b)
+                int buffer = 0;
+                int[] arr1 = (int[])arr.Clone();
+                for (int limit = arr1.Length - 1; limit > 10; limit--)
+                    for (int bubble = 10; bubble < limit; bubble++)
+                        if ((a == 1 && arr1[bubble] > arr1[bubble + 1])
+                            )
                         {
-                           Console.Write("{0} ", arr[i]);
+                            buffer = arr[bubble];
+                            arr[bubble] = arr[bubble + 1];
+                            arr[bubble + 1] = buffer;
                         }
-                        
-                    } 
-                 }
-
-                    if(a == 2)
-                {
-                    for(int i = 0; i < arr.Length; i++)
-                    {
-
-                    }
-                }
-                    
-                    
-
+                return arr1;
             }
+
+             
         }
 
     }
