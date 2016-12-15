@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moryakina_7", "Moryakina_7\Moryakina_7.csproj", "{822187B4-B32D-4D18-901E-9E7EE6FCF8D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{647DA0EA-A259-46AC-BF9A-9945DD854A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{FDFA9A19-B5F6-4AF9-96AE-55DD70758218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{5647CEB3-30D8-4070-81DA-47F7CDECEA89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{822187B4-B32D-4D18-901E-9E7EE6FCF8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{822187B4-B32D-4D18-901E-9E7EE6FCF8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{822187B4-B32D-4D18-901E-9E7EE6FCF8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{822187B4-B32D-4D18-901E-9E7EE6FCF8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647DA0EA-A259-46AC-BF9A-9945DD854A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647DA0EA-A259-46AC-BF9A-9945DD854A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647DA0EA-A259-46AC-BF9A-9945DD854A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647DA0EA-A259-46AC-BF9A-9945DD854A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFA9A19-B5F6-4AF9-96AE-55DD70758218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFA9A19-B5F6-4AF9-96AE-55DD70758218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFA9A19-B5F6-4AF9-96AE-55DD70758218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFA9A19-B5F6-4AF9-96AE-55DD70758218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5647CEB3-30D8-4070-81DA-47F7CDECEA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5647CEB3-30D8-4070-81DA-47F7CDECEA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5647CEB3-30D8-4070-81DA-47F7CDECEA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5647CEB3-30D8-4070-81DA-47F7CDECEA89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

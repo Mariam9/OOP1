@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Moryakina_7")]
+[assembly: AssemblyTitle("AbstractClasses")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Moryakina_7")]
+[assembly: AssemblyProduct("AbstractClasses")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d3858574-4eb4-4ec8-b779-2b3cad2e861b")]
+[assembly: Guid("fdfa9a19-b5f6-4af9-96ae-55dd70758218")]
 
 // Version information for an assembly consists of the following four values:
 //
